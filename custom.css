@@ -105,4 +105,151 @@ body{
 	color: #fff;
 }
 
+/* footer section */
+
+.site-info{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.site-info {
+	font-family: 'Open sans',sans-serif;
+	font-size: 14px;
+	color: #62585f;
+}
+
+.red{
+	font-size: 14px;
+	font-family: 'Open sans'sans-serif;
+	color: #ef4634;
+}
+
+.red:hover{
+	text-decoration: underline;
+}
+
+.blog-column{
+	float: left;
+	width: 70%;
+}
+
+.sidebar-column{
+	float: right;
+	width: 30%;
+	padding-left: 40px;
+}
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 800px) {
+	.blog-column, .sidebar-column {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/* Contacts section */
+
+.contacts-aboutUs{
+	display: flex;
+	margin-bottom: 63px;
+}
+
+@media(max-width:992px){
+	.contacts-aboutUs{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.about-box{
+	width: 50%;
+	margin-right: 52px;
+}
+
+@media (max-width: 992px) {
+	.about-box{
+		margin:0px;
+	}
+	.about-heading{
+		text-align: center;
+	}
+	.about-para{
+		text-align: center;
+		margin: 0px !important;
+	}
+	.link{
+		text-align: center;
+	}
+	.contactUs p{
+		text-align: center;
+	}
+	.contact-icon-links{
+		text-align: center;
+	}
+}
+
+.about-heading{
+	font-family: 'Open sans',sans-serif;
+	font-weight: normal ;
+	font-size: 25px;
+	color: #62585f;
+	text-shadow: 2px 2px #fff;
+}
+
+.about-para{
+	font-family: 'Open sans',sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #62585f;
+	line-height: 21px;
+	margin: 0px;
+}
+
+.link{
+	font-family: 'Open sans',sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #ef4634;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+#contacts-fb{
+	background: url("./images/social.png") 0 0;
+	width: 40px;
+	height: 40px;
+}
+
+#contacts-ggl{
+	background: url("./images/social.png") -45px 0;
+	width: 40px;
+	height: 40px;
+}
+
+#contacts-ldin{
+	background: url("./images/social.png") -45px 40px;
+	width: 40px;
+	height: 40px;
+}
+
+#contacts-pin{
+	background: url("./images/social.png") -135px 0px;
+	width: 40px;
+	height: 40px;
+}
+
+#contacts-twitter{
+	background: url("./images/social.png") -180px 0;
+	width: 40px;
+	height: 40px;
+}
 
